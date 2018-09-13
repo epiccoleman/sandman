@@ -1,0 +1,65 @@
+body {
+    background: #c0c0c0;
+    /* The image used */
+    background-image: url("assets/metallica-prosound.jpg");
+    background-blend-mode: darken;
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#samples {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+}
+
+.sampleContainer {
+    background: rgb(38, 2, 2, .75);
+    width: 100%;
+    grid-column-start: auto;
+    align-self: center;
+
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.sampleContainerHeader {
+    background: rgb(10, 10, 10, .5); 
+    color: white;
+    text-align: center;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.sampleButton {
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    background: #8a0808;
+    margin: 15px;
+}
+
+.buttonKeyLabel {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.buttonSampleName {
+    color: white;
+}
+
+.buttonTextContainer {
+    margin-top: auto;
+    margin-bottom: auto
+}
