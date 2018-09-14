@@ -5,7 +5,7 @@ function getSample(name){
 }
 
 blip.sampleLoader().samples({
-    'backing': './sounds/clipped-backing-track.wav',
+    'backing': './sounds/backing-track.wav',
     'bend1': './sounds/solo-intro-bend.wav',
     'bend2': './sounds/solo-bend-2.wav',
     'weedly': './sounds/solo-descending-weedly.wav',
