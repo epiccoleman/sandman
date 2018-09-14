@@ -9,6 +9,7 @@ blip.sampleLoader().samples({
     'bend1': './sounds/solo-intro-bend.wav',
     'bend2': './sounds/solo-bend-2.wav',
     'weedly': './sounds/solo-descending-weedly.wav',
+    'wahwah': './sounds/solo-wahwah.wav',
     'intro1': './sounds/intro-riff-1.wav',
     'intro2': './sounds/intro-riff-2.wav',
     'intro3': './sounds/intro-riff-3.wav',
